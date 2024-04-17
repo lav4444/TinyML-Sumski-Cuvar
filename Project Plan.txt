@@ -1,0 +1,27 @@
+1. Biranje programske podrške
+  - TensorFlow
+  - TensorFlow Lite
+  - TensorFlow Lite Micro
+  - Google Colab
+
+2. Učitavanje već prikupljenih podataka (audio isječaka)
+  - provjerit dostojnost podataka
+  - podijelit u TRAIN / VALIDATE / TEST
+    - jel VALIDATE podskup od TEST?
+  - potencijalno dodavanje/brisanje manje kvalitetnih uzoraka
+    - funkcija koja će pronaći manje kvalitetne uzorke
+
+3. Pretprocesiranje podataka
+
+4. Izgradnja i treniranje ML modela
+  - Skaliranje vrijednosti 0-1 ?
+  - Odabir tipa NN (Convonutional, Recurrent, ...)
+    - eksperimentirat s arhitekturom i hiperparametrima (funkcija koja testira razne tipove i parametre)
+  - TRENING: pratit accuracy, loss i validation_accuracy (epoches until overfitting)
+  - GENERALIZATION: data augmentation, regularisation (dropout and weight regularisation)
+    - pogledat predavanje iz predmeta Obrada Informacija na temu GENERALIZACIJE
+  -MONITORING: Monitor training process using TensorBoard
+
+5. Compiling and deployment
+  - TensorFlow Lite Micro
+  - Arduino IDE ?
