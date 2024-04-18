@@ -12,6 +12,7 @@
     - funkcija koja će pronaći manje kvalitetne uzorke
 
 3. Pretprocesiranje podataka
+  - po defaultu svaki sample je dužine 3s, možemo se igrati i sa kraćim uzorcima (uz kombiniranje 3/5 uzoraka POS za zaključak POS)
 
 4. Izgradnja i treniranje ML modela
   - Skaliranje vrijednosti 0-1 ?
