@@ -1,7 +1,8 @@
 AUDIO SAMPLES:
-- type wav, but saved on disc as .json
+- TYPE: raw PCM (Pulse-Code Modulation) data
+- but saved on disc as .json
 - total: 1446 samples of length (3s) [= > 72 min]
-- each sample in json format has 48,000 values representing interval of 0.0625ms (= 3,000 ms = 3s)
+- each sample in json format has 48,000 values representing interval of 0.0625ms[sampling rate] (= 3,000 ms = 3s)
 - VALUES: 
   TRAIN - MAX: 32767, MIN: -32768, AVG: 0.01062720702448845
   TEST - MAX: 32767, MIN: -32768, AVG: -0.21955287814719143
