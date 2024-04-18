@@ -5,6 +5,7 @@ AUDIO SAMPLES:
 - VALUES: 
   TRAIN - MAX: 32767, MIN: -32768, AVG: 0.01062720702448845
   TEST - MAX: 32767, MIN: -32768, AVG: -0.21955287814719143
+  (im thinking of shuffling training and testing data together)
 
 Interval: 3000.0, Count: 1421
 Interval: 2043.375, Count: 2
