@@ -2,6 +2,7 @@ AUDIO SAMPLES:
 - type wav, but saved on disc as .json
 - total: 1446 samples of length (3s) [= > 72 min]
 - each sample in json format has 48,000 values representing interval of 0.0625ms (= 3,000 ms = 3s)
+- VALUES: MAX: 32767, MIN: -32768 in both
 Interval: 3000.0, Count: 1421
 Interval: 2043.375, Count: 2
 Interval: 928.8125, Count: 2
