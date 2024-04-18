@@ -1,4 +1,5 @@
 Track proggress and write down next steps:
 - GENERALIZACIJA, predavanje OI
-- Import data to model
-- Split data into Train, Validate (take from train) and Test [atm 81 train/19 test] Validate = 6% iz train + 4% iz test ili samo Validate = 10% train (random)
+- Import data to model✅
+- MFCC/MFE hyperparameters
+- Split data into Train, Validate (take from train) and Test [atm 81 train/19 test] Validate = 6% iz train + 4% iz test ili samo Validate = 10% train (random)✅
