@@ -5,6 +5,7 @@
   - Google Colab
 
 2. Učitavanje već prikupljenih podataka (audio isječaka)
+  - raw PCM (Pulse-Code Modulation) data
   - provjerit dostojnost podataka
   - podijelit u TRAIN / VALIDATE / TEST
     - jel VALIDATE podskup od TEST?
